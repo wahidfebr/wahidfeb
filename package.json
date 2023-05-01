@@ -2,7 +2,7 @@
   "name": "wahidfeb",
   "private": true,
   "version": "1.0.0",
-  "description": "Personal Portofolio Website of Wahid Febrilianto",
+  "description": "Personal Portfolio Website of Wahid Febrilianto",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -23,7 +23,10 @@
   "homepage": "https://github.com/wahidfebr/wahidfeb#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.0",
+    "redux": "^4.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
