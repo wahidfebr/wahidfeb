@@ -22,6 +22,10 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "about",
   },
   {
+    label: "Experience",
+    page: "experience",
+  },
+  {
     label: "Projects",
     page: "projects",
   },
@@ -60,6 +64,7 @@ export default function Navbar() {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <a href="/Resume-Wahid_Febrilianto.pdf" className="block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100">Download CV</a>
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
