@@ -64,7 +64,7 @@ export default function Navbar() {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <a href="/Resume-Wahid_Febrilianto.pdf" className="block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100">Download CV</a>
+              <a href="/Resume-Wahid_Febrilianto.pdf" className="block lg:inline-block font-semibold text-teal-600">Download CV</a>
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
