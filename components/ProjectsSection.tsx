@@ -1,8 +1,7 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "@/components/SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
@@ -15,7 +14,8 @@ const projects = [
   },
   {
     name: "MeStore",
-    description: "MeStore is a mobile and web based application clone of Xiaomi Store Indonesia.",
+    description:
+      "MeStore is a mobile and web based application clone of Xiaomi Store Indonesia.",
     image: "/mestore.png",
     github: "https://github.com/wahidfebr",
     link: "https://mestore-30051.web.app",
@@ -30,13 +30,12 @@ const projects = [
   },
   {
     name: "Rent Room",
-    description:
-      "Rent Room is a web based app where customers can book rooms.",
+    description: "Rent Room is a web based app where customers can book rooms.",
     image: "/rentroom.png",
     github: "https://github.com/wahidfebr",
     link: "https://rent-room-customer.web.app",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -86,12 +85,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

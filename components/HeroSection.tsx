@@ -1,5 +1,4 @@
 "use client"; // this is a client component
-import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll";
 import { HiArrowDown } from "react-icons/hi";
@@ -42,7 +41,7 @@ const HeroSection = () => {
               Projects
             </Link>
             <a
-              href="https://www.linkedin.com/in/wahidfebr/"
+              href="https://www.linkedin.com/in/wahidfebr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-100 font-semibold px-6 py-3 bg-blue-600 rounded shadow hover:bg-blue-700 hover:cursor-pointer"

@@ -1,5 +1,5 @@
 "use client"; // this is a client component
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-scroll/modules";
 import { useTheme } from "next-themes";
@@ -35,7 +35,9 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
   useEffect(() => {
-    setTheme(systemTheme!);
+    if (systemTheme) {
+      setTheme(systemTheme);
+    }
   }, []);
 
   return (
