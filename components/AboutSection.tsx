@@ -6,6 +6,7 @@ const skills = [
   { skill: "CSS" },
   { skill: "Tailwind CSS" },
   { skill: "React.js" },
+  { skill: "Next.js" },
   { skill: "Vue.js" },
   { skill: "State Management (Redux, Pinia)" },
   { skill: "Node.js" },
@@ -22,10 +23,12 @@ const skills = [
   { skill: "GraphQL" },
   { skill: "MQTT" },
   { skill: "AWS" },
+  { skill: "Serverless" },
   { skill: "Nginx" },
   { skill: "Docker" },
   { skill: "Git" },
   { skill: "GitHub" },
+  { skill: "GitLab" },
 ];
 
 const AboutSection = () => {
